@@ -1,3 +1,17 @@
-i {
+.material-icons {
   cursor: pointer;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vote-box {
+  display: flex;
+  align-items: center;
+}
+
+.vote-box > .material-icons {
+  margin: 0 5px 0;
 }
